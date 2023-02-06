@@ -60,3 +60,8 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Swashbuckle.AspNe
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\DSRNetSchool.Api.RazorAssemblyInfo.cache
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\DSRNetSchool.Api.RazorAssemblyInfo.cs
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Api.staticwebassets.runtime.json
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\scopedcss\projectbundle\DSRNetSchool.Api.bundle.scp.css

@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "MreucRiedO/7BXymaHbTW1dvZXJEI0YxC+C41pc4coE=",
+  "Hash": "Rf61k8CcqT3EywtqvzHJXu4VGhvSw3gXnL0lMGmj3Vk=",
   "Source": "DSRNetSchool.Api",
   "BasePath": "_content/DSRNetSchool.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "DSRNetSchool.Api\\wwwroot",
+      "Source": "DSRNetSchool.Api",
+      "ContentRoot": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api\\wwwroot\\",
+      "BasePath": "_content/DSRNetSchool.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DSRNetSchool.Api.styles.css",
+      "SourceId": "DSRNetSchool.Api",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/DSRNetSchool.Api",
+      "RelativePath": "DSRNetSchool.Api.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DSRNetSchool.Api.styles.css"
+    },
+    {
+      "Identity": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DSRNetSchool.Api.bundle.scp.css",
+      "SourceId": "DSRNetSchool.Api",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/DSRNetSchool.Api",
+      "RelativePath": "DSRNetSchool.Api.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DSRNetSchool.Api.bundle.scp.css"
+    }
+  ]
 }
