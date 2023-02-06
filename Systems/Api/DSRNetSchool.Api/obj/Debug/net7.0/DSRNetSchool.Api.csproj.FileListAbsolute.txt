@@ -37,3 +37,10 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Sinks.Con
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\DSRNetSchool.Api.csproj.CopyComplete
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\AutoMapper.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\FluentValidation.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Common.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Common.pdb
