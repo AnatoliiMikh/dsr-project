@@ -13,7 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{3D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Api", "Systems\Api\DSRNetSchool.Api\DSRNetSchool.Api.csproj", "{B9F8823C-4277-49A7-8536-6DDAC40101F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Api.Settings", "Systems\Api\DSRNetSchool.Api.Settings\DSRNetSchool.Api.Settings.csproj", "{F0E98991-C897-4C89-85E0-316FABA0493E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Api.Settings", "Systems\Api\DSRNetSchool.Api.Settings\DSRNetSchool.Api.Settings.csproj", "{F0E98991-C897-4C89-85E0-316FABA0493E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C410E01C-9E10-401F-8151-EDF265867F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Common", "Shared\DSRNetSchool.Common\DSRNetSchool.Common.csproj", "{7B6D4E40-9A8F-431D-9495-7877033648AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D4247033-4CAB-4F04-A442-7E5DD016E74B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,10 @@ Global
 		{F0E98991-C897-4C89-85E0-316FABA0493E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0E98991-C897-4C89-85E0-316FABA0493E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0E98991-C897-4C89-85E0-316FABA0493E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6D4E40-9A8F-431D-9495-7877033648AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6D4E40-9A8F-431D-9495-7877033648AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6D4E40-9A8F-431D-9495-7877033648AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6D4E40-9A8F-431D-9495-7877033648AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +48,7 @@ Global
 		{3DCCFCD9-7144-4640-A54E-D31CA72D9DE9} = {9B4C8392-559E-4CBC-BEC1-D0BFCACC7346}
 		{B9F8823C-4277-49A7-8536-6DDAC40101F4} = {F762B86F-E5B5-474A-A3DE-846DAF966D8E}
 		{F0E98991-C897-4C89-85E0-316FABA0493E} = {F762B86F-E5B5-474A-A3DE-846DAF966D8E}
+		{7B6D4E40-9A8F-431D-9495-7877033648AD} = {C410E01C-9E10-401F-8151-EDF265867F57}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {299BF63F-FD53-4499-A734-9D7AAEA17047}
