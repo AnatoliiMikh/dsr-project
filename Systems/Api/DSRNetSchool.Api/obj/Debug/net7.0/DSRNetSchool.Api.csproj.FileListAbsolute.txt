@@ -24,3 +24,16 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\refint\DSRNetScho
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\DSRNetSchool.Api.pdb
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\DSRNetSchool.Api.genruntimeconfig.cache
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\ref\DSRNetSchool.Api.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Enrichers.CorrelationId.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Expressions.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\DSRNetSchool.Api.csproj.CopyComplete
