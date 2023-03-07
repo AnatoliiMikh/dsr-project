@@ -1,0 +1,12 @@
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.deps.json
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\DSRNetSchool.Settings.csproj.AssemblyReference.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\DSRNetSchool.Settings.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\DSRNetSchool.Settings.AssemblyInfoInputs.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\DSRNetSchool.Settings.AssemblyInfo.cs
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\DSRNetSchool.Settings.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\refint\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\DSRNetSchool.Settings.pdb
+F:\DSR\myproject\Shared\DSRNetSchool.Settings\obj\Debug\net7.0\ref\DSRNetSchool.Settings.dll
