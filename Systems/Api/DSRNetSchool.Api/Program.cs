@@ -1,8 +1,14 @@
+using DSRNetSchool.Api;
 using DSRNetSchool.Api.Configuration;
+using DSRNetSchool.Services.Settings;
+using DSRNetSchool.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var mainSettings = Settings.Load<MainSettings>("Main");
+var swaggerSettings = Settings.Load<SwaggerSettings>("Swagger");
 
 builder.AddAppLogger();
 
@@ -14,9 +20,11 @@ services.AddAppCors();
 
 services.AddAppHealthChecks();
 services.AddAppVersioning();
-services.AddAppSwagger();
+services.AddAppSwagger(mainSettings, swaggerSettings);
 
 services.AddAppControllerAndViews();
+
+services.RegisterAppServices();
 
 //builder.Services.AddControllers(); убрал, тк на Workshop 1 1:16:48 без этого, а через services.AddAppContr..
 

@@ -1,7 +1,7 @@
 ﻿namespace DSRNetSchool.Api.Configuration;
 
 using DSRNetSchool.Common.Security;
-//using DSRNetSchool.Services.Settings;
+using DSRNetSchool.Services.Settings;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
@@ -22,10 +22,11 @@ public static class SwaggerConfiguration
     /// <param name="services">Services collection</param>
     /// <param name="mainSettings"></param>
     /// <param name="swaggerSettings"></param>
-    public static IServiceCollection AddAppSwagger(this IServiceCollection services/*, IdentitySettings identitySettings, SwaggerSettings swaggerSettings*/)
+    //Было на 1:44:21 public static IServiceCollection AddAppSwagger(this IServiceCollection services/*, IdentitySettings identitySettings, SwaggerSettings swaggerSettings*/)
+    public static IServiceCollection AddAppSwagger(this IServiceCollection services, MainSettings mainSettings, SwaggerSettings swaggerSettings)
     {
-        //if (!swaggerSettings.Enabled)
-        //    return services;
+        if (!swaggerSettings.Enabled)
+            return services;
 
         services
             .AddOptions<SwaggerGenOptions>()
@@ -64,6 +65,7 @@ public static class SwaggerConfiguration
                 In = ParameterLocation.Header,
                 Flows = new OpenApiOAuthFlows
                 {
+                    //Было на 1:44:35 вот это (оно же и в проекте с гитхаба):
                     //Password = new OpenApiOAuthFlow
                     //{
                     //    TokenUrl = new Uri($"{identitySettings.Url}/connect/token"),
@@ -73,6 +75,16 @@ public static class SwaggerConfiguration
                     //        {AppScopes.BooksWrite, "BooksWrite"}
                     //    }
                     //}
+
+                    //Стало:
+                    Password = new OpenApiOAuthFlow
+                    {
+                        TokenUrl = new Uri($"{mainSettings.MainUrl}/connect/token"),
+                        Scopes = new Dictionary<string, string>
+                        {
+                            {"api", "Full API access"},
+                        }
+                    }
                 }
             });
 
@@ -111,10 +123,10 @@ public static class SwaggerConfiguration
     /// <param name="app">Web application</param>
     public static void UseAppSwagger(this WebApplication app)
     {
-        //var swaggerSettings = app.Services.GetService<SwaggerSettings>();
+        var swaggerSettings = app.Services.GetService<SwaggerSettings>();
 
-        //if (!swaggerSettings?.Enabled ?? false)
-        //    return;
+        if (!swaggerSettings?.Enabled ?? false)
+            return;
 
         var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 

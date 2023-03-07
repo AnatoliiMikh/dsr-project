@@ -65,3 +65,7 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\DSRNetSchool.Api.
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Api.staticwebassets.runtime.json
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\obj\Debug\net7.0\scopedcss\projectbundle\DSRNetSchool.Api.bundle.scp.css
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Settings.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
