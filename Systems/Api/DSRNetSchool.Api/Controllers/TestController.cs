@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DSRNetSchool.Api.Controllers
 {
-    [Route("api/[controller]")]
-    //[Route("v{version:apiVersion}/[controller]")]
+    //[Route("api/[controller]")]
+    [Route("v{version:apiVersion}/[controller]")]
     [ApiController]
     public class TestController : ControllerBase
     {

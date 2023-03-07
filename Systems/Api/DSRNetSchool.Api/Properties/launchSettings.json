@@ -12,7 +12,6 @@
     "DSRNetSchool.Systems.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      //"launchUrl": "",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
