@@ -29,6 +29,7 @@
     <ProjectReference Include="..\..\..\Services\DSRNetSchool.Services.Settings\DSRNetSchool.Services.Settings.csproj" />
     <ProjectReference Include="..\..\..\Shared\DSRNetSchool.Common\DSRNetSchool.Common.csproj" />
     <ProjectReference Include="..\..\..\Shared\DSRNetSchool.Settings\DSRNetSchool.Settings.csproj" />
+    <ProjectReference Include="..\DSRNetSchool.Api.Settings\DSRNetSchool.Api.Settings.csproj" />
   </ItemGroup>
 
 </Project>

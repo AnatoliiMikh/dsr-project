@@ -1,6 +1,6 @@
 ﻿namespace DSRNetSchool.Api;
 
-////using DSRNetSchool.Api.Settings;
+using DSRNetSchool.Api.Settings;
 //using DSRNetSchool.Services.Actions;
 //using DSRNetSchool.Services.Authors;
 //using DSRNetSchool.Services.Books;
@@ -18,7 +18,7 @@ public static class Bootstrapper
             .AddMainSettings()
             .AddSwaggerSettings()
             //.AddIdentitySettings()
-            ////.AddApiSpecialSettings()
+            .AddApiSpecialSettings()
             //.AddBookService()
             //.AddUserAccountService()
             //.AddCache()

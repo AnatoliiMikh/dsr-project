@@ -996,6 +996,20 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "DSRNetSchool.Api.Settings/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DSRNetSchool.Settings": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DSRNetSchool.Api.Settings.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DSRNetSchool.Api.Settings.dll": {}
+        }
+      },
       "DSRNetSchool.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2601,6 +2615,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DSRNetSchool.Api.Settings/1.0.0": {
+      "type": "project",
+      "path": "../DSRNetSchool.Api.Settings/DSRNetSchool.Api.Settings.csproj",
+      "msbuildProject": "../DSRNetSchool.Api.Settings/DSRNetSchool.Api.Settings.csproj"
+    },
     "DSRNetSchool.Common/1.0.0": {
       "type": "project",
       "path": "../../../Shared/DSRNetSchool.Common/DSRNetSchool.Common.csproj",
@@ -2619,6 +2638,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DSRNetSchool.Api.Settings >= 1.0.0",
       "DSRNetSchool.Common >= 1.0.0",
       "DSRNetSchool.Services.Settings >= 1.0.0",
       "DSRNetSchool.Settings >= 1.0.0",
@@ -2674,6 +2694,9 @@
             },
             "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj"
+            },
+            "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api.Settings\\DSRNetSchool.Api.Settings.csproj": {
+              "projectPath": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api.Settings\\DSRNetSchool.Api.Settings.csproj"
             }
           }
         }

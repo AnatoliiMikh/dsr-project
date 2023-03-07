@@ -10,3 +10,6 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSc
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\refint\DSRNetSchool.Api.Settings.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.pdb
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\ref\DSRNetSchool.Api.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.csproj.CopyComplete
