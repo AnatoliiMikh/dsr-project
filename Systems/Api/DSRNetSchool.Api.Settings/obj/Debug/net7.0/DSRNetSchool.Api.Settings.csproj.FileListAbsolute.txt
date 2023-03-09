@@ -1,0 +1,15 @@
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\bin\Debug\net7.0\DSRNetSchool.Api.Settings.deps.json
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\bin\Debug\net7.0\DSRNetSchool.Api.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\bin\Debug\net7.0\DSRNetSchool.Api.Settings.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.csproj.AssemblyReference.cache
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.AssemblyInfoInputs.cache
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.AssemblyInfo.cs
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\refint\DSRNetSchool.Api.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\ref\DSRNetSchool.Api.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api.Settings\obj\Debug\net7.0\DSRNetSchool.Api.Settings.csproj.CopyComplete

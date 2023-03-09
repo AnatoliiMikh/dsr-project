@@ -1,0 +1,12 @@
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\DSRNetSchool.Common.csproj.AssemblyReference.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\DSRNetSchool.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\DSRNetSchool.Common.AssemblyInfoInputs.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\DSRNetSchool.Common.AssemblyInfo.cs
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\DSRNetSchool.Common.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Common\bin\Debug\net7.0\DSRNetSchool.Common.deps.json
+F:\DSR\myproject\Shared\DSRNetSchool.Common\bin\Debug\net7.0\DSRNetSchool.Common.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Common\bin\Debug\net7.0\DSRNetSchool.Common.pdb
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\DSRNetSchool.Common.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\refint\DSRNetSchool.Common.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\DSRNetSchool.Common.pdb
+F:\DSR\myproject\Shared\DSRNetSchool.Common\obj\Debug\net7.0\ref\DSRNetSchool.Common.dll

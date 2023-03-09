@@ -1,0 +1,15 @@
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\bin\Debug\net7.0\DSRNetSchool.Services.Settings.deps.json
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\bin\Debug\net7.0\DSRNetSchool.Services.Settings.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\bin\Debug\net7.0\DSRNetSchool.Services.Settings.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.csproj.AssemblyReference.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.AssemblyInfoInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.AssemblyInfo.cs
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.csproj.CopyComplete
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\refint\DSRNetSchool.Services.Settings.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\DSRNetSchool.Services.Settings.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.Settings\obj\Debug\net7.0\ref\DSRNetSchool.Services.Settings.dll
