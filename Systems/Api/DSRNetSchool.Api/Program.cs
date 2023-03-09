@@ -29,6 +29,7 @@ services.RegisterAppServices();
 //builder.Services.AddControllers(); убрал, тк на Workshop 1 1:16:48 без этого, а через services.AddAppContr..
 
 var app = builder.Build();
+app.UseStaticFiles();
 
 app.UseAppHealthChecks();
 app.UseAppSwagger();
