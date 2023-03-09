@@ -39,6 +39,6 @@ app.UseAppControllerAndViews();
 
 /*app.UseAuthorization();
 
-app.MapControllers(); Закомментировал, тк авторизация будет потом*/ 
+app.MapControllers(); Закомментировал, тк авторизация и маппер будет потом*/ 
 
 app.Run();
