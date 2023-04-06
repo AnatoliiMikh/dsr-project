@@ -27,9 +27,15 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2E05E73C-FDE7-4303-96F2-3721AA8AF0E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Context", "Data\DSRNetSchool.Context\DSRNetSchool.Context.csproj", "{9CF82B61-0333-4163-B085-2161053A8B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Context", "Data\DSRNetSchool.Context\DSRNetSchool.Context.csproj", "{9CF82B61-0333-4163-B085-2161053A8B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Context.Entities", "Data\DSRNetSchool.Context.Entities\DSRNetSchool.Context.Entities.csproj", "{B04CA82E-92B8-407A-9FE9-F4E5BC1C85EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Context.Entities", "Data\DSRNetSchool.Context.Entities\DSRNetSchool.Context.Entities.csproj", "{B04CA82E-92B8-407A-9FE9-F4E5BC1C85EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{A7312E22-8265-4A21-ACEA-BF12DA1CCB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Context.MigrationsMSSQL", "Data\Migrations\DSRNetSchool.Context.MigrationsMSSQL\DSRNetSchool.Context.MigrationsMSSQL.csproj", "{940DF1DA-5121-40BD-8F39-CEF6148D42A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Context.MigrationsPostgreSQL", "Data\Migrations\DSRNetSchool.Context.MigrationsPostgreSQL\DSRNetSchool.Context.MigrationsPostgreSQL.csproj", "{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,14 @@ Global
 		{B04CA82E-92B8-407A-9FE9-F4E5BC1C85EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04CA82E-92B8-407A-9FE9-F4E5BC1C85EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04CA82E-92B8-407A-9FE9-F4E5BC1C85EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940DF1DA-5121-40BD-8F39-CEF6148D42A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940DF1DA-5121-40BD-8F39-CEF6148D42A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940DF1DA-5121-40BD-8F39-CEF6148D42A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940DF1DA-5121-40BD-8F39-CEF6148D42A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +97,9 @@ Global
 		{430FDB9E-BF7A-4FD1-8D0F-D70FE0EF3C7B} = {D4247033-4CAB-4F04-A442-7E5DD016E74B}
 		{9CF82B61-0333-4163-B085-2161053A8B72} = {2E05E73C-FDE7-4303-96F2-3721AA8AF0E7}
 		{B04CA82E-92B8-407A-9FE9-F4E5BC1C85EE} = {2E05E73C-FDE7-4303-96F2-3721AA8AF0E7}
+		{A7312E22-8265-4A21-ACEA-BF12DA1CCB5A} = {2E05E73C-FDE7-4303-96F2-3721AA8AF0E7}
+		{940DF1DA-5121-40BD-8F39-CEF6148D42A4} = {A7312E22-8265-4A21-ACEA-BF12DA1CCB5A}
+		{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C} = {A7312E22-8265-4A21-ACEA-BF12DA1CCB5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {299BF63F-FD53-4499-A734-9D7AAEA17047}
