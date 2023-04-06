@@ -1,0 +1,12 @@
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\bin\Debug\net7.0\DSRNetSchool.Context.Entities.deps.json
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\bin\Debug\net7.0\DSRNetSchool.Context.Entities.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\bin\Debug\net7.0\DSRNetSchool.Context.Entities.pdb
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\DSRNetSchool.Context.Entities.csproj.AssemblyReference.cache
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\DSRNetSchool.Context.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\DSRNetSchool.Context.Entities.AssemblyInfoInputs.cache
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\DSRNetSchool.Context.Entities.AssemblyInfo.cs
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\DSRNetSchool.Context.Entities.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\DSRNetSchool.Context.Entities.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\refint\DSRNetSchool.Context.Entities.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\DSRNetSchool.Context.Entities.pdb
+F:\DSR\myproject\Data\DSRNetSchool.Context.Entities\obj\Debug\net7.0\ref\DSRNetSchool.Context.Entities.dll
