@@ -1,5 +1,6 @@
 using DSRNetSchool.Api;
 using DSRNetSchool.Api.Configuration;
+using DSRNetSchool.Context;
 using DSRNetSchool.Services.Settings;
 using DSRNetSchool.Settings;
 
@@ -17,6 +18,8 @@ var services = builder.Services;
 
 services.AddHttpContextAccessor();
 services.AddAppCors(); 
+
+services.AddAppDbContext();
 
 services.AddAppHealthChecks();
 services.AddAppVersioning();
