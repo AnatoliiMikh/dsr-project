@@ -1,0 +1,17 @@
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Context.deps.json
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Context.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Context.pdb
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Context.Entities.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Context.Entities.pdb
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.csproj.AssemblyReference.cache
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.AssemblyInfoInputs.cache
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.AssemblyInfo.cs
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.csproj.CopyComplete
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\refint\DSRNetSchool.Context.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.pdb
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\ref\DSRNetSchool.Context.dll
