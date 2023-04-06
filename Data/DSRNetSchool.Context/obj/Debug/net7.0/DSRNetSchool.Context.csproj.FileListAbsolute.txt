@@ -15,3 +15,5 @@ F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context
 F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\refint\DSRNetSchool.Context.dll
 F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.pdb
 F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\ref\DSRNetSchool.Context.dll
+F:\DSR\myproject\Data\DSRNetSchool.Context\bin\Debug\net7.0\DSRNetSchool.Context.runtimeconfig.json
+F:\DSR\myproject\Data\DSRNetSchool.Context\obj\Debug\net7.0\DSRNetSchool.Context.genruntimeconfig.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AM+b6TDOIuikYyYXWYxgupIMUpenSI3stwdq9yrnKQNfiZfQWOM5JYAbNB0wRKbjJTNh9rApeYibryKQr2MeFA==",
+  "dgSpecHash": "3xfah/jKKivn8JpOyej5M3Mw1Zoc26kxQzGS2ct7LrNVfdasR5LWs/xRb5aeaI50VfknOMFAYTAAaTWxRqMfxg==",
   "success": true,
   "projectFilePath": "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsPostgreSQL\\DSRNetSchool.Context.MigrationsPostgreSQL.csproj",
   "expectedPackageFiles": [

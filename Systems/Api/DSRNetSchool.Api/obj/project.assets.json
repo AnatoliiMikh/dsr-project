@@ -75,7 +75,7 @@
           }
         }
       },
-      "FluentValidation/11.4.0": {
+      "FluentValidation/11.5.1": {
         "type": "package",
         "compile": {
           "lib/net7.0/FluentValidation.dll": {
@@ -1998,7 +1998,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
-          "FluentValidation": "11.4.0",
+          "FluentValidation": "11.5.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "7.0.2",
           "Newtonsoft.Json": "13.0.2"
@@ -2038,6 +2038,36 @@
         },
         "runtime": {
           "bin/placeholder/DSRNetSchool.Context.Entities.dll": {}
+        }
+      },
+      "DSRNetSchool.Context.MigrationsMSSQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DSRNetSchool.Context": "1.0.0",
+          "DSRNetSchool.Context.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/DSRNetSchool.Context.MigrationsMSSQL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DSRNetSchool.Context.MigrationsMSSQL.dll": {}
+        }
+      },
+      "DSRNetSchool.Context.MigrationsPostgreSQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DSRNetSchool.Context": "1.0.0",
+          "DSRNetSchool.Context.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/DSRNetSchool.Context.MigrationsPostgreSQL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DSRNetSchool.Context.MigrationsPostgreSQL.dll": {}
         }
       },
       "DSRNetSchool.Services.Settings/1.0.0": {
@@ -2142,16 +2172,16 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "FluentValidation/11.4.0": {
-      "sha512": "WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+    "FluentValidation/11.5.1": {
+      "sha512": "0h1Q5lNOLLyYTWMJmyNoMqhY4CBRvvUWvJP1R4F2CnmmzuWwvB0A8aVmw5+lOuwYnwUwCRrdeMLbc81F38ahNQ==",
       "type": "package",
-      "path": "fluentvalidation/11.4.0",
+      "path": "fluentvalidation/11.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "fluent-validation-icon.png",
-        "fluentvalidation.11.4.0.nupkg.sha512",
+        "fluentvalidation.11.5.1.nupkg.sha512",
         "fluentvalidation.nuspec",
         "lib/net5.0/FluentValidation.dll",
         "lib/net5.0/FluentValidation.xml",
@@ -5687,6 +5717,16 @@
       "path": "../../../Data/DSRNetSchool.Context.Entities/DSRNetSchool.Context.Entities.csproj",
       "msbuildProject": "../../../Data/DSRNetSchool.Context.Entities/DSRNetSchool.Context.Entities.csproj"
     },
+    "DSRNetSchool.Context.MigrationsMSSQL/1.0.0": {
+      "type": "project",
+      "path": "../../../Data/Migrations/DSRNetSchool.Context.MigrationsMSSQL/DSRNetSchool.Context.MigrationsMSSQL.csproj",
+      "msbuildProject": "../../../Data/Migrations/DSRNetSchool.Context.MigrationsMSSQL/DSRNetSchool.Context.MigrationsMSSQL.csproj"
+    },
+    "DSRNetSchool.Context.MigrationsPostgreSQL/1.0.0": {
+      "type": "project",
+      "path": "../../../Data/Migrations/DSRNetSchool.Context.MigrationsPostgreSQL/DSRNetSchool.Context.MigrationsPostgreSQL.csproj",
+      "msbuildProject": "../../../Data/Migrations/DSRNetSchool.Context.MigrationsPostgreSQL/DSRNetSchool.Context.MigrationsPostgreSQL.csproj"
+    },
     "DSRNetSchool.Services.Settings/1.0.0": {
       "type": "project",
       "path": "../../../Services/DSRNetSchool.Services.Settings/DSRNetSchool.Services.Settings.csproj",
@@ -5703,6 +5743,8 @@
       "DSRNetSchool.Api.Settings >= 1.0.0",
       "DSRNetSchool.Common >= 1.0.0",
       "DSRNetSchool.Context >= 1.0.0",
+      "DSRNetSchool.Context.MigrationsMSSQL >= 1.0.0",
+      "DSRNetSchool.Context.MigrationsPostgreSQL >= 1.0.0",
       "DSRNetSchool.Services.Settings >= 1.0.0",
       "DSRNetSchool.Settings >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.0.0",
@@ -5753,6 +5795,12 @@
           "projectReferences": {
             "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context\\DSRNetSchool.Context.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context\\DSRNetSchool.Context.csproj"
+            },
+            "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsMSSQL\\DSRNetSchool.Context.MigrationsMSSQL.csproj": {
+              "projectPath": "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsMSSQL\\DSRNetSchool.Context.MigrationsMSSQL.csproj"
+            },
+            "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsPostgreSQL\\DSRNetSchool.Context.MigrationsPostgreSQL.csproj": {
+              "projectPath": "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsPostgreSQL\\DSRNetSchool.Context.MigrationsPostgreSQL.csproj"
             },
             "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Settings\\DSRNetSchool.Services.Settings.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Settings\\DSRNetSchool.Services.Settings.csproj"

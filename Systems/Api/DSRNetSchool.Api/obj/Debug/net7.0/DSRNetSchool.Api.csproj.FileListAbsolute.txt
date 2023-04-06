@@ -120,3 +120,7 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Humanizer.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\System.CodeDom.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Context.MigrationsMSSQL.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Context.MigrationsPostgreSQL.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Context.MigrationsMSSQL.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Context.MigrationsPostgreSQL.pdb

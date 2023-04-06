@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vxdjX3tbhjMQnqU1QjLI2+ml1twF5+EC+PM72dJPnD5U2yX8frZDCh5WilI5/UNzBQ+JA/fFcGuoBSnvmnIk0w==",
+  "dgSpecHash": "9hi9LzuNsTKsAZESjitJPYD7f09DbdQ+07uaxFOFQYfqUmSF70mtIU84V761C43QtW5b50sXtlbdIqjddVHbuw==",
   "success": true,
   "projectFilePath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TBOTB\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
-    "C:\\Users\\TBOTB\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\TBOTB\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

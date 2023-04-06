@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ENLQ8OArsftlct6P419HA2zw9KDyKiICUHekES5Vplh8RS2F2KXNDn7BFw8zziYbikFrBge5treih/NyhUAf1A==",
+  "dgSpecHash": "O3eRee6AkNW2o7OD16TX/FZuPTXh1eqSph10r8yRl/Hyi4ZDxMdAwmifqS438fbWnsIqwxpJCSZsXsfrMuzlug==",
   "success": true,
   "projectFilePath": "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsMSSQL\\DSRNetSchool.Context.MigrationsMSSQL.csproj",
   "expectedPackageFiles": [

@@ -19,7 +19,7 @@ var services = builder.Services;
 services.AddHttpContextAccessor();
 services.AddAppCors(); 
 
-services.AddAppDbContext();
+services.AddAppDbContext(builder.Configuration);
 
 services.AddAppHealthChecks();
 services.AddAppVersioning();

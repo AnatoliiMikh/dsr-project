@@ -3758,7 +3758,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "DSRNetSchool.Context >= 1.0.0",
-      "DSRNetSchool.Context.Entities >= 1.0.0"
+      "DSRNetSchool.Context.Entities >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 7.0.4"
     ]
   },
   "packageFolders": {
@@ -3813,6 +3814,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -9,7 +9,8 @@
       "DSRNetSchool.Context.MigrationsMSSQL/1.0.0": {
         "dependencies": {
           "DSRNetSchool.Context": "1.0.0",
-          "DSRNetSchool.Context.Entities": "1.0.0"
+          "DSRNetSchool.Context.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.4"
         },
         "runtime": {
           "DSRNetSchool.Context.MigrationsMSSQL.dll": {}
