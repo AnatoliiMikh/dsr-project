@@ -1,0 +1,64 @@
+version: '3.4'
+
+services:
+
+  dsrnetschool_postgresql:
+    image: postgres:14.1
+    
+  dsrnetschool_redis:
+    image: redis
+
+  #dsrnetschool_rabbitmq:
+  #  image: rabbitmq:management
+
+  dsrnetschool_api:
+    image: ${DOCKER_REGISTRY-}dsrnetschoolapi
+    build:
+      context: .
+      dockerfile: Systems/Api/DSRNetSchool.Api/Dockerfile
+    depends_on:
+      - dsrnetschool_postgresql
+      - dsrnetschool_redis
+
+  #dsrnetschool_identity:
+  #  image: ${DOCKER_REGISTRY-}dsrnetschoolidentity
+  #  build:
+  #    context: .
+  #    dockerfile: Systems/Identity/DSRNetSchool.Identity/Dockerfile
+  #  depends_on:
+  #    - dsrnetschool_postgresql
+  #    - dsrnetschool_redis
+  #    - dsrnetschool_api
+
+  #dsrnetschool_worker_1:
+  #  image: ${DOCKER_REGISTRY-}dsrnetschoolworker
+  #  build:
+  #    context: .
+  #    dockerfile: Systems/Workers/DSRNetSchool.Worker/Dockerfile
+  #  depends_on:
+  #    - dsrnetschool_postgresql
+  #    - dsrnetschool_redis
+  #    - dsrnetschool_rabbitmq
+  #    - dsrnetschool_api
+  
+  #dsrnetschool_worker_2:
+  #  image: ${DOCKER_REGISTRY-}dsrnetschoolworker
+  #  build:
+  #    context: .
+  #    dockerfile: Systems/Workers/DSRNetSchool.Worker/Dockerfile
+  #  depends_on:
+  #    - dsrnetschool_postgresql
+  #    - dsrnetschool_redis
+  #    - dsrnetschool_rabbitmq
+  #    - dsrnetschool_api
+
+  #dsrnetschool_web:
+  #  image: ${DOCKER_REGISTRY-}dsrnetschoolweb
+  #  build:
+  #    context: .
+  #    dockerfile: Systems/Web/DSRNetSchool.Web/Dockerfile
+  #  depends_on:
+  #    - dsrnetschool_postgresql
+  #    - dsrnetschool_redis
+  #    - dsrnetschool_rabbitmq
+  #    - dsrnetschool_api
