@@ -48,3 +48,10 @@ F:\DSR\myproject\bin\Debug\DSRNetSchool.Context.Entities.dll
 F:\DSR\myproject\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 F:\DSR\myproject\bin\Debug\DSRNetSchool.Context.pdb
 F:\DSR\myproject\bin\Debug\DSRNetSchool.Context.Entities.pdb
+F:\DSR\myproject\bin\Debug\appsettings.context.json
+F:\DSR\myproject\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\DSR\myproject\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\DSR\myproject\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+F:\DSR\myproject\bin\Debug\Microsoft.Data.SqlClient.dll
+F:\DSR\myproject\bin\Debug\Npgsql.dll
+F:\DSR\myproject\bin\Debug\Microsoft.Identity.Client.dll

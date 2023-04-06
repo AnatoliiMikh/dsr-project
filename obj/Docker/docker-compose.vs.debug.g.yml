@@ -5,6 +5,7 @@ services:
     image: dsrnetschoolapi:dev
     container_name: DSRNetSchool.Api
     build:
+      target: base
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "DSRNetSchool.Api"
