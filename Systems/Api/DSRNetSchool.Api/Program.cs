@@ -47,6 +47,8 @@ app.UseAppControllerAndViews();
 
 /*app.UseAuthorization();
 
-app.MapControllers(); Закомментировал, тк авторизация и маппер будет потом*/ 
+app.MapControllers(); Закомментировал, тк авторизация и маппер будет потом*/
+
+app.UseAppMiddlewares();
 
 app.Run();
