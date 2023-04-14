@@ -69,7 +69,7 @@ namespace DSRNetSchool.Api.Controllers
         {
             throw new ProcessException("We have error!!!");
 
-            return "All right!";
+            //return "All right!";
         }
 
     }

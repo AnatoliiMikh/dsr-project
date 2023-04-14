@@ -37,7 +37,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Context.Migrat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Context.MigrationsPostgreSQL", "Data\Migrations\DSRNetSchool.Context.MigrationsPostgreSQL\DSRNetSchool.Context.MigrationsPostgreSQL.csproj", "{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Services.Books", "Services\DSRNetSchool.Services.Books\DSRNetSchool.Services.Books.csproj", "{B3928771-82F4-482A-8908-D3FFB05B9477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.Books", "Services\DSRNetSchool.Services.Books\DSRNetSchool.Services.Books.csproj", "{B3928771-82F4-482A-8908-D3FFB05B9477}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{566CCA88-E3DE-4BE4-BE13-DF58255422E7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

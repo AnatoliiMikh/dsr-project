@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xNxGjEtAjKsADvKJLSEIXC4sXpPIVPp3/xRBTbqOQE6U2uHNeJ7j/dKkiJJH5u3Js+M1lbCLBIeX8J1IS3fezA==",
+  "dgSpecHash": "uKkqHDif30dHuex5zHWgdJ4GfrT9V2WKlNs9Ajiy3Rl37Yo1qXkOciamNsnxs7vb+GXa+DUDWdMIFuUzAmdhgQ==",
   "success": true,
   "projectFilePath": "F:\\DSR\\myproject\\Systems\\Api\\DSRNetSchool.Api.Settings\\DSRNetSchool.Api.Settings.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.0\\microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
+    "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
