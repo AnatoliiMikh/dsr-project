@@ -124,3 +124,7 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Cont
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Context.MigrationsPostgreSQL.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Context.MigrationsMSSQL.pdb
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Context.MigrationsPostgreSQL.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Books.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Books.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

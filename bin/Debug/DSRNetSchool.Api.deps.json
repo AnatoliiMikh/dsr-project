@@ -13,6 +13,7 @@
           "DSRNetSchool.Context": "1.0.0",
           "DSRNetSchool.Context.MigrationsMSSQL": "1.0.0",
           "DSRNetSchool.Context.MigrationsPostgreSQL": "1.0.0",
+          "DSRNetSchool.Services.Books": "1.0.0",
           "DSRNetSchool.Services.Settings": "1.0.0",
           "DSRNetSchool.Settings": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.0.0",
@@ -1153,6 +1154,19 @@
           "DSRNetSchool.Context.MigrationsPostgreSQL.dll": {}
         }
       },
+      "DSRNetSchool.Services.Books/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "DSRNetSchool.Common": "1.0.0",
+          "DSRNetSchool.Context": "1.0.0",
+          "DSRNetSchool.Context.Entities": "1.0.0",
+          "FluentValidation": "11.5.1",
+          "Microsoft.EntityFrameworkCore": "7.0.4"
+        },
+        "runtime": {
+          "DSRNetSchool.Services.Books.dll": {}
+        }
+      },
       "DSRNetSchool.Services.Settings/1.0.0": {
         "dependencies": {
           "DSRNetSchool.Settings": "1.0.0",
@@ -2035,6 +2049,11 @@
       "sha512": ""
     },
     "DSRNetSchool.Context.MigrationsPostgreSQL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DSRNetSchool.Services.Books/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

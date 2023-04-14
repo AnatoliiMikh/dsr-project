@@ -55,3 +55,5 @@ F:\DSR\myproject\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 F:\DSR\myproject\bin\Debug\Microsoft.Data.SqlClient.dll
 F:\DSR\myproject\bin\Debug\Npgsql.dll
 F:\DSR\myproject\bin\Debug\Microsoft.Identity.Client.dll
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.Books.dll
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.Books.pdb

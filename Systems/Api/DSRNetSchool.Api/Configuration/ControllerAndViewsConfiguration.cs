@@ -12,7 +12,7 @@ public static class ControllerAndViewsConfiguration
         services
             .AddControllers()
             .AddNewtonsoftJson(options => options.SerializerSettings.SetDefaultSettings())
-            //.AddValidator() Закомментировал на 1:16:05 Workshop 1, тк там этого нет, тк валидация будет позже
+            .AddValidator() //Закомментировал на 1:16:05 Workshop 1, тк там этого нет, тк валидация будет позже //Раскомменатирвали на 1:44:0 ws2
             ;
 
         return services;

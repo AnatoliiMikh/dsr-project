@@ -1,6 +1,6 @@
 name: dockercompose15649272697360217685
 services:
-  dsrnetschool.api:
+  dsrnetschool_api:
     build:
       context: F:\DSR\myproject
       dockerfile: Systems/Api/DSRNetSchool.Api/Dockerfile
@@ -9,15 +9,27 @@ services:
         com.microsoft.visual-studio.project-name: DSRNetSchool.Api
       target: base
     container_name: DSRNetSchool.Api
+    depends_on:
+      dsrnetschool_postgresql:
+        condition: service_started
+      dsrnetschool_redis:
+        condition: service_started
     entrypoint:
     - tail
     - -f
     - /dev/null
     environment:
-      ASPNETCORE_ENVIRONMENT: Development
+      APISPECIAL__HELLOMESSAGE: Hello, DSR NetSchool from Docker!
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DATABASE__CONNECTIONSTRING: Server=localhost;Port=5432;Database=DSRNetSchool;User
+        Id=postgres;Password=Passw0rd;
+      DATABASE__TYPE: PostgreSQL
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      MAIN__MAINURL: http://host.docker.internal:10000
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+      SWAGGER__ENABLED: "true"
+      SWAGGER__OAUTHCLIENTID: ""
+      SWAGGER__OAUTHCLIENTSECRET: ""
     image: dsrnetschoolapi:dev
     labels:
       com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
@@ -28,10 +40,11 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
-      default: null
+      shared_dsrnetschool_net: null
     ports:
     - mode: ingress
       target: 80
+      published: "10000"
       protocol: tcp
     tty: true
     volumes:
@@ -80,6 +93,41 @@ services:
       read_only: true
       bind:
         create_host_path: true
+  dsrnetschool_postgresql:
+    environment:
+      POSTGRES_NAME: postgres
+      POSTGRES_PASSWORD: Passw0rd
+      POSTGRES_USER: postgres
+    image: postgres:14.1
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\TBOTB\.docker-conf\postgresql\data
+      target: /var/lib/postgresql/data
+      bind:
+        create_host_path: true
+  dsrnetschool_redis:
+    image: redis
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\TBOTB\.docker-conf\redis\data
+      target: /data
+      bind:
+        create_host_path: true
 networks:
-  default:
-    name: dockercompose15649272697360217685_default
+  shared_dsrnetschool_net:
+    name: dsr_net_school
+    driver: bridge

@@ -3,7 +3,7 @@
 using DSRNetSchool.Api.Settings;
 //using DSRNetSchool.Services.Actions;
 //using DSRNetSchool.Services.Authors;
-//using DSRNetSchool.Services.Books;
+using DSRNetSchool.Services.Books;
 //using DSRNetSchool.Services.Cache;
 //using DSRNetSchool.Services.RabbitMq;
 using DSRNetSchool.Services.Settings;
@@ -19,7 +19,7 @@ public static class Bootstrapper
             .AddSwaggerSettings()
             //.AddIdentitySettings()
             .AddApiSpecialSettings()
-            //.AddBookService()
+            .AddBookService()
             //.AddUserAccountService()
             //.AddCache()
             //.AddRabbitMq()
