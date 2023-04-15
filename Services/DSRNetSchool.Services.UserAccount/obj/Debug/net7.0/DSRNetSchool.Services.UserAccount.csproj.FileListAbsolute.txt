@@ -1,0 +1,17 @@
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.UserAccount.deps.json
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.UserAccount.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.UserAccount.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Common.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Context.Entities.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Context.Entities.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Common.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.csproj.AssemblyReference.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.AssemblyInfoInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.AssemblyInfo.cs
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.csproj.CopyComplete
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\refint\DSRNetSchool.Services.UserAccount.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\ref\DSRNetSchool.Services.UserAccount.dll

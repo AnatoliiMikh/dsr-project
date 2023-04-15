@@ -76,3 +76,9 @@ F:\DSR\myproject\bin\Debug\Duende.IdentityServer.AspNetIdentity.dll
 F:\DSR\myproject\bin\Debug\IdentityModel.dll
 F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 F:\DSR\myproject\bin\Debug\DSRNetSchool.Identity.pdb
+F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.UserAccount.dll
+F:\DSR\myproject\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\DSR\myproject\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\DSR\myproject\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.UserAccount.pdb

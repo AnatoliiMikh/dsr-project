@@ -11,9 +11,10 @@ services:
         condition: service_started
     environment:
       APISPECIAL__HELLOMESSAGE: Hello, DSR NetSchool from Docker!
-      DATABASE__CONNECTIONSTRING: Server=localhost;Port=5432;Database=DSRNetSchool;User
+      DATABASE__CONNECTIONSTRING: Server=dsrnetschool_postgresql;Port=5432;Database=DSRNetSchool;User
         Id=postgres;Password=Passw0rd;
       DATABASE__TYPE: PostgreSQL
+      IDENTITY__URL: http://host.docker.internal:10001
       MAIN__MAINURL: http://host.docker.internal:10000
       SWAGGER__ENABLED: "true"
       SWAGGER__OAUTHCLIENTID: ""
@@ -25,6 +26,29 @@ services:
     - mode: ingress
       target: 80
       published: "10000"
+      protocol: tcp
+  dsrnetschool_identity:
+    build:
+      context: F:\DSR\myproject
+      dockerfile: Systems/Identity/DSRNetSchool.Identity/Dockerfile
+    depends_on:
+      dsrnetschool_api:
+        condition: service_started
+      dsrnetschool_postgresql:
+        condition: service_started
+      dsrnetschool_redis:
+        condition: service_started
+    environment:
+      DATABASE__CONNECTIONSTRING: Server=dsrnetschool_postgresql;Port=5432;Database=DSRNetSchool;User
+        Id=postgres;Password=Passw0rd;
+      DATABASE__TYPE: PostgreSQL
+    image: dsrnetschoolidentity
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "10001"
       protocol: tcp
   dsrnetschool_postgresql:
     environment:
