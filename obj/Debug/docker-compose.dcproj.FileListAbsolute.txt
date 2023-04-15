@@ -61,3 +61,8 @@ F:\DSR\myproject\bin\Debug\FluentValidation.AspNetCore.dll
 F:\DSR\myproject\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
 F:\DSR\myproject\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
 F:\DSR\myproject\bin\Debug\Microsoft.Extensions.Options.dll
+F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\DSR\myproject\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
+F:\DSR\myproject\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
