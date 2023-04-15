@@ -66,3 +66,13 @@ F:\DSR\myproject\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
 F:\DSR\myproject\bin\Debug\Microsoft.Extensions.Identity.Core.dll
 F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Identity.deps.json
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Identity.runtimeconfig.json
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Identity.exe
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Identity.dll
+F:\DSR\myproject\bin\Debug\Duende.IdentityServer.Storage.dll
+F:\DSR\myproject\bin\Debug\Duende.IdentityServer.dll
+F:\DSR\myproject\bin\Debug\Duende.IdentityServer.AspNetIdentity.dll
+F:\DSR\myproject\bin\Debug\IdentityModel.dll
+F:\DSR\myproject\bin\Debug\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Identity.pdb

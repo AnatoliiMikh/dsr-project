@@ -400,6 +400,10 @@
               "target": "Package",
               "version": "[6.2.3, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[6.1.0, )"

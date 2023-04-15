@@ -20,15 +20,15 @@ services:
       - dsrnetschool_postgresql
       - dsrnetschool_redis
 
-  #dsrnetschool_identity:
-  #  image: ${DOCKER_REGISTRY-}dsrnetschoolidentity
-  #  build:
-  #    context: .
-  #    dockerfile: Systems/Identity/DSRNetSchool.Identity/Dockerfile
-  #  depends_on:
-  #    - dsrnetschool_postgresql
-  #    - dsrnetschool_redis
-  #    - dsrnetschool_api
+  dsrnetschool_identity:
+    image: ${DOCKER_REGISTRY-}dsrnetschoolidentity
+    build:
+      context: .
+      dockerfile: Systems/Identity/DSRNetSchool.Identity/Dockerfile
+    depends_on:
+      - dsrnetschool_postgresql
+      - dsrnetschool_redis
+      - dsrnetschool_api
 
   #dsrnetschool_worker_1:
   #  image: ${DOCKER_REGISTRY-}dsrnetschoolworker
