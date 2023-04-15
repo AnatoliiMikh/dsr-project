@@ -44,6 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Identity", "Systems\Identity\DSRNetSchool.Identity\DSRNetSchool.Identity.csproj", "{E2CF325B-AA6D-41D1-AED6-9402BC6CB4EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,6 +96,10 @@ Global
 		{B3928771-82F4-482A-8908-D3FFB05B9477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3928771-82F4-482A-8908-D3FFB05B9477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3928771-82F4-482A-8908-D3FFB05B9477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CF325B-AA6D-41D1-AED6-9402BC6CB4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CF325B-AA6D-41D1-AED6-9402BC6CB4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CF325B-AA6D-41D1-AED6-9402BC6CB4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CF325B-AA6D-41D1-AED6-9402BC6CB4EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +118,7 @@ Global
 		{940DF1DA-5121-40BD-8F39-CEF6148D42A4} = {A7312E22-8265-4A21-ACEA-BF12DA1CCB5A}
 		{DE4F6DE6-9EDE-4645-A720-2E742CA0CA0C} = {A7312E22-8265-4A21-ACEA-BF12DA1CCB5A}
 		{B3928771-82F4-482A-8908-D3FFB05B9477} = {D4247033-4CAB-4F04-A442-7E5DD016E74B}
+		{E2CF325B-AA6D-41D1-AED6-9402BC6CB4EB} = {3DCCFCD9-7144-4640-A54E-D31CA72D9DE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {299BF63F-FD53-4499-A734-9D7AAEA17047}
