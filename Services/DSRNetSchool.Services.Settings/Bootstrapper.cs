@@ -12,16 +12,15 @@ public static class Bootstrapper
         services.AddSingleton(settings);
 
         return services;
-    }   
-    
-    //Мы еще не добавляли идентификацию
-    //public static IServiceCollection AddIdentitySettings(this IServiceCollection services, IConfiguration configuration = null)
-    //{
-    //    var settings = Settings.Load<IdentitySettings>("Identity", configuration);
-    //    services.AddSingleton(settings);
+    }
 
-    //    return services;
-    //}
+    public static IServiceCollection AddIdentitySettings(this IServiceCollection services, IConfiguration configuration = null)
+    {
+        var settings = Settings.Load<IdentitySettings>("Identity", configuration);
+        services.AddSingleton(settings);
+
+        return services;
+    }
 
     public static IServiceCollection AddSwaggerSettings(this IServiceCollection services, IConfiguration configuration = null)
     {

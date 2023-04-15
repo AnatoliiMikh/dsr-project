@@ -22,8 +22,7 @@ public static class SwaggerConfiguration
     /// <param name="services">Services collection</param>
     /// <param name="mainSettings"></param>
     /// <param name="swaggerSettings"></param>
-    //Было на 1:44:21 public static IServiceCollection AddAppSwagger(this IServiceCollection services/*, IdentitySettings identitySettings, SwaggerSettings swaggerSettings*/)
-    public static IServiceCollection AddAppSwagger(this IServiceCollection services, MainSettings mainSettings, SwaggerSettings swaggerSettings)
+    public static IServiceCollection AddAppSwagger(this IServiceCollection services, IdentitySettings identitySettings, SwaggerSettings swaggerSettings)
     {
         if (!swaggerSettings.Enabled)
             return services;
@@ -65,24 +64,13 @@ public static class SwaggerConfiguration
                 In = ParameterLocation.Header,
                 Flows = new OpenApiOAuthFlows
                 {
-                    //Было на 1:44:35 вот это (оно же и в проекте с гитхаба):
-                    //Password = new OpenApiOAuthFlow
-                    //{
-                    //    TokenUrl = new Uri($"{identitySettings.Url}/connect/token"),
-                    //    Scopes = new Dictionary<string, string>
-                    //    {
-                    //        {AppScopes.BooksRead, "BooksRead"},
-                    //        {AppScopes.BooksWrite, "BooksWrite"}
-                    //    }
-                    //}
-
-                    //Стало:
                     Password = new OpenApiOAuthFlow
                     {
-                        TokenUrl = new Uri($"{mainSettings.MainUrl}/connect/token"),
+                        TokenUrl = new Uri($"{identitySettings.Url}/connect/token"),
                         Scopes = new Dictionary<string, string>
                         {
-                            {"api", "Full API access"},
+                            {AppScopes.BooksRead, "BooksRead"},
+                            {AppScopes.BooksWrite, "BooksWrite"}
                         }
                     }
                 }

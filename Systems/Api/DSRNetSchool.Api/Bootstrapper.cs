@@ -17,7 +17,7 @@ public static class Bootstrapper
         services
             .AddMainSettings()
             .AddSwaggerSettings()
-            //.AddIdentitySettings()
+            .AddIdentitySettings()
             .AddApiSpecialSettings()
             .AddBookService()
             //.AddUserAccountService()
