@@ -129,12 +129,9 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Serv
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
-F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\EntityFramework.SqlServer.dll
-F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\EntityFramework.dll
-F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.AspNet.Identity.Core.dll
-F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.AspNet.Identity.EntityFramework.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
