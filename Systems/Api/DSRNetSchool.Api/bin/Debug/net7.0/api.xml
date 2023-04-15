@@ -117,8 +117,5 @@
             </summary>
             <response code="200">BookResponse></response>
         </member>
-        <member name="T:Program">
-            *app.UseAuthorization();
-        </member>
     </members>
 </doc>
