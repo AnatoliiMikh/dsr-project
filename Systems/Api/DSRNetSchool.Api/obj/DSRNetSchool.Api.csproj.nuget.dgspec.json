@@ -311,6 +311,82 @@
         }
       }
     },
+    "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj",
+        "projectName": "DSRNetSchool.Services.Actions",
+        "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj",
+        "packagesPath": "C:\\Users\\TBOTB\\.nuget\\packages\\",
+        "outputPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Programs\\Visual Studio\\Other\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TBOTB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj"
+              },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\DSRNetSchool.Services.RabbitMq.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\DSRNetSchool.Services.RabbitMq.csproj"
+              },
+              "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\DSRNetSchool.Consts.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\DSRNetSchool.Consts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Books\\DSRNetSchool.Services.Books.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -346,6 +422,9 @@
               "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context\\DSRNetSchool.Context.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context\\DSRNetSchool.Context.csproj"
               },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj"
+              },
               "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj"
               }
@@ -374,13 +453,238 @@
               "target": "Package",
               "version": "[11.5.2, )"
             },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj",
+        "projectName": "DSRNetSchool.Services.Cache",
+        "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj",
+        "packagesPath": "C:\\Users\\TBOTB\\.nuget\\packages\\",
+        "outputPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Programs\\Visual Studio\\Other\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TBOTB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj"
+              },
+              "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.104, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj",
+        "projectName": "DSRNetSchool.Services.EmailSender",
+        "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj",
+        "packagesPath": "C:\\Users\\TBOTB\\.nuget\\packages\\",
+        "outputPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Programs\\Visual Studio\\Other\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TBOTB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\DSRNetSchool.Services.RabbitMq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\DSRNetSchool.Services.RabbitMq.csproj",
+        "projectName": "DSRNetSchool.Services.RabbitMq",
+        "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\DSRNetSchool.Services.RabbitMq.csproj",
+        "packagesPath": "C:\\Users\\TBOTB\\.nuget\\packages\\",
+        "outputPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Programs\\Visual Studio\\Other\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TBOTB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -505,6 +809,12 @@
               "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context.Entities\\DSRNetSchool.Context.Entities.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context.Entities\\DSRNetSchool.Context.Entities.csproj"
               },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj"
+              },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj"
+              },
               "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj"
               }
@@ -593,10 +903,6 @@
               "target": "Package",
               "version": "[11.5.2, )"
             },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -610,6 +916,66 @@
               "version": "[13.0.3, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\DSRNetSchool.Consts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\DSRNetSchool.Consts.csproj",
+        "projectName": "DSRNetSchool.Consts",
+        "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\DSRNetSchool.Consts.csproj",
+        "packagesPath": "C:\\Users\\TBOTB\\.nuget\\packages\\",
+        "outputPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Programs\\Visual Studio\\Other\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TBOTB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -824,8 +1190,17 @@
               "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsPostgreSQL\\DSRNetSchool.Context.MigrationsPostgreSQL.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Data\\Migrations\\DSRNetSchool.Context.MigrationsPostgreSQL\\DSRNetSchool.Context.MigrationsPostgreSQL.csproj"
               },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj"
+              },
               "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Books\\DSRNetSchool.Services.Books.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Books\\DSRNetSchool.Services.Books.csproj"
+              },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj"
+              },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\DSRNetSchool.Services.RabbitMq.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.RabbitMq\\DSRNetSchool.Services.RabbitMq.csproj"
               },
               "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Settings\\DSRNetSchool.Services.Settings.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Settings\\DSRNetSchool.Services.Settings.csproj"

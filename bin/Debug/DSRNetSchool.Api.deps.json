@@ -13,7 +13,10 @@
           "DSRNetSchool.Context": "1.0.0",
           "DSRNetSchool.Context.MigrationsMSSQL": "1.0.0",
           "DSRNetSchool.Context.MigrationsPostgreSQL": "1.0.0",
+          "DSRNetSchool.Services.Actions": "1.0.0",
           "DSRNetSchool.Services.Books": "1.0.0",
+          "DSRNetSchool.Services.Cache": "1.0.0",
+          "DSRNetSchool.Services.RabbitMq": "1.0.0",
           "DSRNetSchool.Services.Settings": "1.0.0",
           "DSRNetSchool.Services.UserAccount": "1.0.0",
           "DSRNetSchool.Settings": "1.0.0",
@@ -80,7 +83,7 @@
           "Azure.Core": "1.24.0",
           "Microsoft.Identity.Client": "4.45.0",
           "Microsoft.Identity.Client.Extensions.Msal": "2.19.3",
-          "System.Memory": "4.5.4",
+          "System.Memory": "4.5.5",
           "System.Security.Cryptography.ProtectedData": "5.0.0",
           "System.Text.Json": "7.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
@@ -780,6 +783,29 @@
           }
         }
       },
+      "Pipelines.Sockets.Unofficial/2.2.2": {
+        "dependencies": {
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.2.2.34088"
+          }
+        }
+      },
+      "RabbitMQ.Client/6.5.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
       "Scrutor/3.3.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -923,6 +949,17 @@
           "lib/net5.0/Serilog.Sinks.File.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "StackExchange.Redis/2.6.104": {
+        "dependencies": {
+          "Pipelines.Sockets.Unofficial": "2.2.2"
+        },
+        "runtime": {
+          "lib/net5.0/StackExchange.Redis.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.6.104.40210"
           }
         }
       },
@@ -1086,7 +1123,8 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Memory/4.5.4": {},
+      "System.IO.Pipelines/5.0.1": {},
+      "System.Memory/4.5.5": {},
       "System.Memory.Data/1.0.2": {
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0",
@@ -1208,6 +1246,7 @@
           "System.Text.Encodings.Web": "7.0.0"
         }
       },
+      "System.Threading.Channels/7.0.0": {},
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1249,13 +1288,17 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "FluentValidation": "11.5.2",
-          "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "7.0.5",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "DSRNetSchool.Common.dll": {}
+        }
+      },
+      "DSRNetSchool.Consts/1.0.0": {
+        "runtime": {
+          "DSRNetSchool.Consts.dll": {}
         }
       },
       "DSRNetSchool.Context/1.0.0": {
@@ -1300,6 +1343,17 @@
           "DSRNetSchool.Context.MigrationsPostgreSQL.dll": {}
         }
       },
+      "DSRNetSchool.Services.Actions/1.0.0": {
+        "dependencies": {
+          "DSRNetSchool.Consts": "1.0.0",
+          "DSRNetSchool.Services.EmailSender": "1.0.0",
+          "DSRNetSchool.Services.RabbitMq": "1.0.0",
+          "RabbitMQ.Client": "6.5.0"
+        },
+        "runtime": {
+          "DSRNetSchool.Services.Actions.dll": {}
+        }
+      },
       "DSRNetSchool.Services.Books/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
@@ -1307,12 +1361,44 @@
           "DSRNetSchool.Common": "1.0.0",
           "DSRNetSchool.Context": "1.0.0",
           "DSRNetSchool.Context.Entities": "1.0.0",
+          "DSRNetSchool.Services.Cache": "1.0.0",
           "FluentValidation": "11.5.2",
-          "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.EntityFrameworkCore": "7.0.5"
         },
         "runtime": {
           "DSRNetSchool.Services.Books.dll": {}
+        }
+      },
+      "DSRNetSchool.Services.Cache/1.0.0": {
+        "dependencies": {
+          "DSRNetSchool.Common": "1.0.0",
+          "DSRNetSchool.Settings": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "StackExchange.Redis": "2.6.104"
+        },
+        "runtime": {
+          "DSRNetSchool.Services.Cache.dll": {}
+        }
+      },
+      "DSRNetSchool.Services.EmailSender/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "FluentValidation": "11.5.2",
+          "Microsoft.Extensions.Logging": "7.0.0"
+        },
+        "runtime": {
+          "DSRNetSchool.Services.EmailSender.dll": {}
+        }
+      },
+      "DSRNetSchool.Services.RabbitMq/1.0.0": {
+        "dependencies": {
+          "DSRNetSchool.Settings": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "RabbitMQ.Client": "6.5.0"
+        },
+        "runtime": {
+          "DSRNetSchool.Services.RabbitMq.dll": {}
         }
       },
       "DSRNetSchool.Services.Settings/1.0.0": {
@@ -1327,7 +1413,9 @@
       "DSRNetSchool.Services.UserAccount/1.0.0": {
         "dependencies": {
           "DSRNetSchool.Common": "1.0.0",
-          "DSRNetSchool.Context.Entities": "1.0.0"
+          "DSRNetSchool.Context.Entities": "1.0.0",
+          "DSRNetSchool.Services.Actions": "1.0.0",
+          "DSRNetSchool.Services.EmailSender": "1.0.0"
         },
         "runtime": {
           "DSRNetSchool.Services.UserAccount.dll": {}
@@ -1914,6 +2002,20 @@
       "path": "npgsql.entityframeworkcore.postgresql/7.0.3",
       "hashPath": "npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512"
     },
+    "Pipelines.Sockets.Unofficial/2.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bhk0FWxH1paI+18zr1g5cTL+ebeuDcBCR+rRFO+fKEhretgjs7MF2Mc1P64FGLecWp4zKCUOPzngBNrqVyY7Zg==",
+      "path": "pipelines.sockets.unofficial/2.2.2",
+      "hashPath": "pipelines.sockets.unofficial.2.2.2.nupkg.sha512"
+    },
+    "RabbitMQ.Client/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9hY5HiWPtCla1/l0WmXmLnqoX7iKE3neBQUWnetIJrRpOvTbO//XQfQDh++xgHCshL40Kv/6bR0HDkmJz46twg==",
+      "path": "rabbitmq.client/6.5.0",
+      "hashPath": "rabbitmq.client.6.5.0.nupkg.sha512"
+    },
     "Scrutor/3.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1997,6 +2099,13 @@
       "sha512": "sha512-uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
       "path": "serilog.sinks.file/5.0.0",
       "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
+    },
+    "StackExchange.Redis/2.6.104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ccfmWZifNOk2c+co6urH9BeyUzmbqalyksVy6Ma28xNTLT3Nrng+5OX+EB5KrTsWHykoZTGzTM3L7ndySuxEuA==",
+      "path": "stackexchange.redis/2.6.104",
+      "hashPath": "stackexchange.redis.2.6.104.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",
@@ -2117,12 +2226,19 @@
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
     },
-    "System.Memory/4.5.4": {
+    "System.IO.Pipelines/5.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
-      "path": "system.memory/4.5.4",
-      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+      "sha512": "sha512-qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
+      "path": "system.io.pipelines/5.0.1",
+      "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "System.Memory.Data/1.0.2": {
       "type": "package",
@@ -2236,6 +2352,13 @@
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
+    "System.Threading.Channels/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "path": "system.threading.channels/7.0.0",
+      "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
+    },
     "System.Threading.Tasks/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2267,6 +2390,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "DSRNetSchool.Consts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DSRNetSchool.Context/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2287,7 +2415,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "DSRNetSchool.Services.Actions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DSRNetSchool.Services.Books/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DSRNetSchool.Services.Cache/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DSRNetSchool.Services.EmailSender/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DSRNetSchool.Services.RabbitMq/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

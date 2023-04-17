@@ -200,6 +200,9 @@
               "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context\\DSRNetSchool.Context.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Data\\DSRNetSchool.Context\\DSRNetSchool.Context.csproj"
               },
+              "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj"
+              },
               "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj": {
                 "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj"
               }
@@ -228,13 +231,90 @@
               "target": "Package",
               "version": "[11.5.2, )"
             },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj",
+        "projectName": "DSRNetSchool.Services.Cache",
+        "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\DSRNetSchool.Services.Cache.csproj",
+        "packagesPath": "C:\\Users\\TBOTB\\.nuget\\packages\\",
+        "outputPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Programs\\Visual Studio\\Other\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TBOTB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj"
+              },
+              "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj": {
+                "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.104, )"
             }
           },
           "imports": [
@@ -309,10 +389,6 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.5.2, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
             },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",

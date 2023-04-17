@@ -1,16 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="11.5.2" />
-    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
   </ItemGroup>
 
@@ -18,6 +17,7 @@
     <ProjectReference Include="..\..\Data\DSRNetSchool.Context.Entities\DSRNetSchool.Context.Entities.csproj" />
     <ProjectReference Include="..\..\Data\DSRNetSchool.Context\DSRNetSchool.Context.csproj" />
     <ProjectReference Include="..\..\Shared\DSRNetSchool.Common\DSRNetSchool.Common.csproj" />
+    <ProjectReference Include="..\DSRNetSchool.Services.Cache\DSRNetSchool.Services.Cache.csproj" />
   </ItemGroup>
 
 </Project>

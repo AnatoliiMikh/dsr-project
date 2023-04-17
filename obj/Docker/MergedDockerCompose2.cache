@@ -1,0 +1,98 @@
+name: dockercompose15649272697360217685
+services:
+  dsrnetschool_api:
+    build:
+      context: F:\DSR\myproject
+      dockerfile: Systems/Api/DSRNetSchool.Api/Dockerfile
+    depends_on:
+      dsrnetschool_postgresql:
+        condition: service_started
+      dsrnetschool_redis:
+        condition: service_started
+    environment:
+      APISPECIAL__HELLOMESSAGE: Hello, DSR NetSchool from Docker!
+      CACHE__CACHELIFETYME: "1"
+      CACHE__URI: host.docker.internal:6379,allowAdmin=true,abortConnect=false
+      DATABASE__CONNECTIONSTRING: Server=dsrnetschool_postgresql;Port=5432;Database=DSRNetSchool;User
+        Id=postgres;Password=Passw0rd;
+      DATABASE__TYPE: PostgreSQL
+      IDENTITY__URL: http://host.docker.internal:10001
+      MAIN__MAINURL: http://host.docker.internal:10000
+      SWAGGER__ENABLED: "true"
+      SWAGGER__OAUTHCLIENTID: ""
+      SWAGGER__OAUTHCLIENTSECRET: ""
+    image: dsrnetschoolapi
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "10000"
+      protocol: tcp
+  dsrnetschool_identity:
+    build:
+      context: F:\DSR\myproject
+      dockerfile: Systems/Identity/DSRNetSchool.Identity/Dockerfile
+    depends_on:
+      dsrnetschool_api:
+        condition: service_started
+      dsrnetschool_postgresql:
+        condition: service_started
+      dsrnetschool_redis:
+        condition: service_started
+    environment:
+      DATABASE__CONNECTIONSTRING: Server=dsrnetschool_postgresql;Port=5432;Database=DSRNetSchool;User
+        Id=postgres;Password=Passw0rd;
+      DATABASE__TYPE: PostgreSQL
+    image: dsrnetschoolidentity
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "10001"
+      protocol: tcp
+  dsrnetschool_postgresql:
+    environment:
+      POSTGRES_NAME: postgres
+      POSTGRES_PASSWORD: Passw0rd
+      POSTGRES_USER: postgres
+    image: postgres:14.1
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\TBOTB\.docker-conf\postgresql\data
+      target: /var/lib/postgresql/data
+      bind:
+        create_host_path: true
+  dsrnetschool_rabbitmq:
+    image: rabbitmq:management
+    networks:
+      default: null
+  dsrnetschool_redis:
+    image: redis
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\TBOTB\.docker-conf\redis\data
+      target: /data
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose15649272697360217685_default
+  shared_dsrnetschool_net:
+    name: dsr_net_school
+    driver: bridge

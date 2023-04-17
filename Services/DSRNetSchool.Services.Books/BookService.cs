@@ -5,7 +5,7 @@ using DSRNetSchool.Common.Exceptions;
 using DSRNetSchool.Common.Validator;
 using DSRNetSchool.Context;
 using DSRNetSchool.Context.Entities;
-//using DSRNetSchool.Services.Cache;
+using DSRNetSchool.Services.Cache;
 using Microsoft.EntityFrameworkCore;
 
 public class BookService : IBookService
@@ -14,39 +14,39 @@ public class BookService : IBookService
 
     private readonly IDbContextFactory<MainDbContext> contextFactory;
     private readonly IMapper mapper;
-    //private readonly ICacheService cacheService; 1:34:00 - ws2
+    private readonly ICacheService cacheService; 
     private readonly IModelValidator<AddBookModel> addBookModelValidator;
     private readonly IModelValidator<UpdateBookModel> updateBookModelValidator;
 
     public BookService(
         IDbContextFactory<MainDbContext> contextFactory,
         IMapper mapper,
-        //ICacheService cacheService,
+        ICacheService cacheService,
         IModelValidator<AddBookModel> addBookModelValidator,
         IModelValidator<UpdateBookModel> updateBookModelValidator
         )
     {
         this.contextFactory = contextFactory;
         this.mapper = mapper;
-        //this.cacheService = cacheService;
+        this.cacheService = cacheService;
         this.addBookModelValidator = addBookModelValidator;
         this.updateBookModelValidator = updateBookModelValidator;
     }
 
     public async Task<IEnumerable<BookModel>> GetBooks(int offset = 0, int limit = 10)
     {
-        //try
-        //{
-        //    var cached_data = await cacheService.Get<IEnumerable<BookModel>>(contextCacheKey);
-        //    if (cached_data != null)
-        //        return cached_data;
-        //}
-        //catch
-        //{
-        //    // Put log message here
-        //}
+        try
+        {
+            var cached_data = await cacheService.Get<IEnumerable<BookModel>>(contextCacheKey);
+            if (cached_data != null)
+                return cached_data;
+        }
+        catch
+        {
+            // Put log message here
+        }
 
-        //await Task.Delay(5000);
+        await Task.Delay(5000);
 
 
 
@@ -64,7 +64,7 @@ public class BookService : IBookService
 
         var data = (await books.ToListAsync()).Select(book => mapper.Map<BookModel>(book));
 
-        //await cacheService.Put(contextCacheKey, data, TimeSpan.FromSeconds(30));
+        await cacheService.Put(contextCacheKey, data, TimeSpan.FromSeconds(30));
 
         return data;
     }
@@ -90,7 +90,7 @@ public class BookService : IBookService
         context.SaveChanges();
 
 
-        //await cacheService.Delete(contextCacheKey);
+        await cacheService.Delete(contextCacheKey);
 
         return mapper.Map<BookModel>(book);
     }

@@ -4,27 +4,27 @@ using AutoMapper;
 using DSRNetSchool.Common.Exceptions;
 using DSRNetSchool.Common.Validator;
 using DSRNetSchool.Context.Entities;
-//using DSRNetSchool.Services.Actions; //это еще не делали на 1:32:36 в вш-3
-//using DSRNetSchool.Services.EmailSender; //это еще не делали на 1:32:36 в вш-3
-using DSRNetSchool.Services.UserAccount;
+using DSRNetSchool.Services.Actions; 
+using DSRNetSchool.Services.EmailSender; 
+//using DSRNetSchool.Services.UserAccount; ??????
 using Microsoft.AspNetCore.Identity;
 
 public class UserAccountService : IUserAccountService
 {
     private readonly IMapper mapper;
     private readonly UserManager<User> userManager;
-    //private readonly IAction action; //это еще не делали на 1:32:36 в вш-3
+    private readonly IAction action; 
     private readonly IModelValidator<RegisterUserAccountModel> registerUserAccountModelValidator;
-    //это еще не делали на 1:32:36 в вш-3
+
     public UserAccountService(
         IMapper mapper,
         UserManager<User> userManager,
-        //IAction action, //это еще не делали на 1:32:36 в вш-3
+        IAction action, 
         IModelValidator<RegisterUserAccountModel> registerUserAccountModelValidator)
     {
         this.mapper = mapper;
         this.userManager = userManager;
-        //this.action = action; //это еще не делали на 1:32:36 в вш-3
+        this.action = action; 
         this.registerUserAccountModelValidator = registerUserAccountModelValidator;
     }
 
@@ -54,13 +54,12 @@ public class UserAccountService : IUserAccountService
         if (!result.Succeeded)
             throw new ProcessException($"Creating user account is wrong. {String.Join(", ", result.Errors.Select(s => s.Description))}");
 
-        //это еще не делали на 1:32:36 в вш-3
-        //await action.SendEmail(new EmailModel
-        //{
-        //    Email = model.Email,
-        //    Subject = "DSRNetSchool notification",
-        //    Message = "You are registered"
-        //});
+        await action.SendEmail(new EmailModel
+        {
+            Email = model.Email,
+            Subject = "DSRNetSchool notification",
+            Message = "You are registered"
+        });
 
 
         // Returning the created user

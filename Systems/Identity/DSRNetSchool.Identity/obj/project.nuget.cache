@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lNw7FcwbhuJrtpmSFO70/chO0WWVji9q1NtQJUjpOUy8iAr5qF4RZoFNfGw+Kz8HXrv+lmxicpB7CRJVuoozIA==",
+  "dgSpecHash": "RycJZ9mf1r7Fhg9J0x/lRb1Y3UTU+lVVMzFEck3MfCC266uIJ+BENuyxxWkhyYyOwij9U2kzNbPzPm8zvAAZLg==",
   "success": true,
   "projectFilePath": "F:\\DSR\\myproject\\Systems\\Identity\\DSRNetSchool.Identity\\DSRNetSchool.Identity.csproj",
   "expectedPackageFiles": [
@@ -12,8 +12,6 @@
     "C:\\Users\\TBOTB\\.nuget\\packages\\duende.identityserver.aspnetidentity\\6.2.3\\duende.identityserver.aspnetidentity.6.2.3.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\duende.identityserver.storage\\6.2.3\\duende.identityserver.storage.6.2.3.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
-    "C:\\Users\\TBOTB\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
-    "C:\\Users\\TBOTB\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\7.0.0\\microsoft.aspnetcore.authentication.openidconnect.7.0.0.nupkg.sha512",
     "C:\\Users\\TBOTB\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",

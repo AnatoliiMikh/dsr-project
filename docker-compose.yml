@@ -8,8 +8,8 @@ services:
   dsrnetschool_redis:
     image: redis
 
-  #dsrnetschool_rabbitmq:
-  #  image: rabbitmq:management
+  dsrnetschool_rabbitmq:
+    image: rabbitmq:management
 
   dsrnetschool_api:
     image: ${DOCKER_REGISTRY-}dsrnetschoolapi
