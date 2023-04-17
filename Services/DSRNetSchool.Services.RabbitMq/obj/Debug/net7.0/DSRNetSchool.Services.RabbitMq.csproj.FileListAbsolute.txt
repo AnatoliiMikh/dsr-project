@@ -1,0 +1,15 @@
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\bin\Debug\net7.0\DSRNetSchool.Services.RabbitMq.deps.json
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\bin\Debug\net7.0\DSRNetSchool.Services.RabbitMq.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\bin\Debug\net7.0\DSRNetSchool.Services.RabbitMq.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.csproj.AssemblyReference.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.AssemblyInfoInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.AssemblyInfo.cs
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.csproj.CopyComplete
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\refint\DSRNetSchool.Services.RabbitMq.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\DSRNetSchool.Services.RabbitMq.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.RabbitMq\obj\Debug\net7.0\ref\DSRNetSchool.Services.RabbitMq.dll

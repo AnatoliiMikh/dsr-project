@@ -141,3 +141,16 @@ F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\IdentityServer4.A
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.UserAccount.dll
 F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.UserAccount.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\StackExchange.Redis.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Cache.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Cache.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\RabbitMQ.Client.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.RabbitMq.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.RabbitMq.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Consts.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Actions.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.EmailSender.dll
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.Actions.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Consts.pdb
+F:\DSR\myproject\Systems\Api\DSRNetSchool.Api\bin\Debug\net7.0\DSRNetSchool.Services.EmailSender.pdb

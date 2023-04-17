@@ -24,7 +24,6 @@ F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\obj\Debug\net7.0\refint\
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\obj\Debug\net7.0\DSRNetSchool.Identity.pdb
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\obj\Debug\net7.0\DSRNetSchool.Identity.genruntimeconfig.cache
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\obj\Debug\net7.0\ref\DSRNetSchool.Identity.dll
-F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\obj\Debug\net7.0\DSRNetSchool.Identity.MvcApplicationPartsAssemblyInfo.cs
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\AutoMapper.dll
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\Azure.Core.dll
@@ -33,8 +32,6 @@ F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\Duende.
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\Duende.IdentityServer.AspNetIdentity.dll
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\Duende.IdentityServer.Storage.dll
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\FluentValidation.dll
-F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
-F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\IdentityModel.dll
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll

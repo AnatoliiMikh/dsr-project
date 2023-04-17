@@ -21,15 +21,15 @@ services:
     volumes:      
       - ~/.docker-conf/redis/data/:/data
 
-  #dsrnetschool_rabbitmq:
-  #  ports:
-  #    - "5672:5672"
-  #    - "5673:5673"
-  #    - "15672:15672" 
-  #  networks:
-  #    - shared_dsrnetschool_net
-  #  volumes:      
-  #    - ./rabbitmq:/var/lib/rabbitmq
+  dsrnetschool_rabbitmq:
+    ports:
+      - "5672:5672"
+      - "5673:5673"
+      - "15672:15672" 
+    networks:
+      - shared_dsrnetschool_net
+    volumes:      
+      - ./rabbitmq:/var/lib/rabbitmq
 
   dsrnetschool_api:
     ports:
@@ -47,17 +47,17 @@ services:
     env_file:
       - env.identity
 
-  #dsrnetschool_worker_1:
-  #  networks:
-  #    - shared_dsrnetschool_net
-  #  env_file:
-  #    - env.worker
+  dsrnetschool_worker_1:
+    networks:
+      - shared_dsrnetschool_net
+    env_file:
+      - env.worker
 
-  #dsrnetschool_worker_2:
-  #  networks:
-  #    - shared_dsrnetschool_net
-  #  env_file:
-  #    - env.worker
+  dsrnetschool_worker_2:
+    networks:
+      - shared_dsrnetschool_net
+    env_file:
+      - env.worker
 
   #dsrnetschool_web:
   #  ports:

@@ -1,0 +1,12 @@
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\bin\Debug\net7.0\DSRNetSchool.Services.EmailSender.deps.json
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\bin\Debug\net7.0\DSRNetSchool.Services.EmailSender.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\bin\Debug\net7.0\DSRNetSchool.Services.EmailSender.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\DSRNetSchool.Services.EmailSender.csproj.AssemblyReference.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\DSRNetSchool.Services.EmailSender.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\DSRNetSchool.Services.EmailSender.AssemblyInfoInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\DSRNetSchool.Services.EmailSender.AssemblyInfo.cs
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\DSRNetSchool.Services.EmailSender.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\DSRNetSchool.Services.EmailSender.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\refint\DSRNetSchool.Services.EmailSender.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\DSRNetSchool.Services.EmailSender.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.EmailSender\obj\Debug\net7.0\ref\DSRNetSchool.Services.EmailSender.dll

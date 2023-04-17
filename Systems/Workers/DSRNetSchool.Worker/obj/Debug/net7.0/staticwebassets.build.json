@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kePQ8FW7I/nUVXCJdpsT9U3J1JXNPMAqjfc4lxaRvdo=",
+  "Source": "DSRNetSchool.Worker",
+  "BasePath": "_content/DSRNetSchool.Worker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

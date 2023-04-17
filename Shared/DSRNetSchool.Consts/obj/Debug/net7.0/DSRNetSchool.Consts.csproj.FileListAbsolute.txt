@@ -1,0 +1,12 @@
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\bin\Debug\net7.0\DSRNetSchool.Consts.deps.json
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\bin\Debug\net7.0\DSRNetSchool.Consts.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\bin\Debug\net7.0\DSRNetSchool.Consts.pdb
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\DSRNetSchool.Consts.csproj.AssemblyReference.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\DSRNetSchool.Consts.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\DSRNetSchool.Consts.AssemblyInfoInputs.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\DSRNetSchool.Consts.AssemblyInfo.cs
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\DSRNetSchool.Consts.csproj.CoreCompileInputs.cache
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\DSRNetSchool.Consts.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\refint\DSRNetSchool.Consts.dll
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\DSRNetSchool.Consts.pdb
+F:\DSR\myproject\Shared\DSRNetSchool.Consts\obj\Debug\net7.0\ref\DSRNetSchool.Consts.dll

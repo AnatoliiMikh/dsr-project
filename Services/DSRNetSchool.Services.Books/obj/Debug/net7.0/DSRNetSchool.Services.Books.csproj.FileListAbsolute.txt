@@ -19,3 +19,5 @@ F:\DSR\myproject\Services\DSRNetSchool.Services.Books\obj\Debug\net7.0\DSRNetSch
 F:\DSR\myproject\Services\DSRNetSchool.Services.Books\obj\Debug\net7.0\refint\DSRNetSchool.Services.Books.dll
 F:\DSR\myproject\Services\DSRNetSchool.Services.Books\obj\Debug\net7.0\DSRNetSchool.Services.Books.pdb
 F:\DSR\myproject\Services\DSRNetSchool.Services.Books\obj\Debug\net7.0\ref\DSRNetSchool.Services.Books.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.Books\bin\Debug\net7.0\DSRNetSchool.Services.Cache.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.Books\bin\Debug\net7.0\DSRNetSchool.Services.Cache.pdb

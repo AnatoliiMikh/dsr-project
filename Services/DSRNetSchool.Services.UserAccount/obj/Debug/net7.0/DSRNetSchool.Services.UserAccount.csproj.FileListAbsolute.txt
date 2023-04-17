@@ -15,3 +15,13 @@ F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSR
 F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\refint\DSRNetSchool.Services.UserAccount.dll
 F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\DSRNetSchool.Services.UserAccount.pdb
 F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\obj\Debug\net7.0\ref\DSRNetSchool.Services.UserAccount.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Consts.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.Actions.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.EmailSender.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.RabbitMq.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Settings.dll
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.Actions.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.EmailSender.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Consts.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Services.RabbitMq.pdb
+F:\DSR\myproject\Services\DSRNetSchool.Services.UserAccount\bin\Debug\net7.0\DSRNetSchool.Settings.pdb
