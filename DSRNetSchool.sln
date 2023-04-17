@@ -39,11 +39,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Context.Migrat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.Books", "Services\DSRNetSchool.Services.Books\DSRNetSchool.Services.Books.csproj", "{B3928771-82F4-482A-8908-D3FFB05B9477}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{566CCA88-E3DE-4BE4-BE13-DF58255422E7}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Identity", "Systems\Identity\DSRNetSchool.Identity\DSRNetSchool.Identity.csproj", "{E2CF325B-AA6D-41D1-AED6-9402BC6CB4EB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.UserAccount", "Services\DSRNetSchool.Services.UserAccount\DSRNetSchool.Services.UserAccount.csproj", "{76779B7C-9814-401D-8BD9-31B5DAEF7484}"
@@ -60,7 +55,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Consts", "Shar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{7EC1648A-D360-4BDF-BBE2-AEC4505F0F20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Worker", "Systems\Workers\DSRNetSchool.Worker\DSRNetSchool.Worker.csproj", "{9F57C6E3-9888-4463-AC62-595BED523676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Worker", "Systems\Workers\DSRNetSchool.Worker\DSRNetSchool.Worker.csproj", "{9F57C6E3-9888-4463-AC62-595BED523676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
