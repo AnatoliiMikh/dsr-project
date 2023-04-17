@@ -11,11 +11,16 @@ services:
         condition: service_started
     environment:
       APISPECIAL__HELLOMESSAGE: Hello, DSR NetSchool from Docker!
+      CACHE__CACHELIFETYME: "1"
+      CACHE__URI: host.docker.internal:6379,allowAdmin=true,abortConnect=false
       DATABASE__CONNECTIONSTRING: Server=dsrnetschool_postgresql;Port=5432;Database=DSRNetSchool;User
         Id=postgres;Password=Passw0rd;
       DATABASE__TYPE: PostgreSQL
       IDENTITY__URL: http://host.docker.internal:10001
       MAIN__MAINURL: http://host.docker.internal:10000
+      RABBITMQ__PASSWORD: guest
+      RABBITMQ__URI: amqp://host.docker.internal:5672
+      RABBITMQ__USERNAME: guest
       SWAGGER__ENABLED: "true"
       SWAGGER__OAUTHCLIENTID: ""
       SWAGGER__OAUTHCLIENTSECRET: ""
@@ -69,6 +74,29 @@ services:
       target: /var/lib/postgresql/data
       bind:
         create_host_path: true
+  dsrnetschool_rabbitmq:
+    image: rabbitmq:management
+    networks:
+      shared_dsrnetschool_net: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 5673
+      published: "5673"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: F:\DSR\myproject\rabbitmq
+      target: /var/lib/rabbitmq
+      bind:
+        create_host_path: true
   dsrnetschool_redis:
     image: redis
     networks:
@@ -84,6 +112,52 @@ services:
       target: /data
       bind:
         create_host_path: true
+  dsrnetschool_worker_1:
+    build:
+      context: F:\DSR\myproject
+      dockerfile: Systems/Workers/DSRNetSchool.Worker/Dockerfile
+    depends_on:
+      dsrnetschool_api:
+        condition: service_started
+      dsrnetschool_postgresql:
+        condition: service_started
+      dsrnetschool_rabbitmq:
+        condition: service_started
+      dsrnetschool_redis:
+        condition: service_started
+    environment:
+      DATABASE__CONNECTIONSTRING: Server=dsrnetschool_postgresql;Port=5432;Database=DSRNetSchool;User
+        Id=postgres;Password=Passw0rd;
+      DATABASE__TYPE: PostgreSQL
+      RABBITMQ__PASSWORD: guest
+      RABBITMQ__URI: amqp://host.docker.internal:5672
+      RABBITMQ__USERNAME: guest
+    image: dsrnetschoolworker
+    networks:
+      shared_dsrnetschool_net: null
+  dsrnetschool_worker_2:
+    build:
+      context: F:\DSR\myproject
+      dockerfile: Systems/Workers/DSRNetSchool.Worker/Dockerfile
+    depends_on:
+      dsrnetschool_api:
+        condition: service_started
+      dsrnetschool_postgresql:
+        condition: service_started
+      dsrnetschool_rabbitmq:
+        condition: service_started
+      dsrnetschool_redis:
+        condition: service_started
+    environment:
+      DATABASE__CONNECTIONSTRING: Server=dsrnetschool_postgresql;Port=5432;Database=DSRNetSchool;User
+        Id=postgres;Password=Passw0rd;
+      DATABASE__TYPE: PostgreSQL
+      RABBITMQ__PASSWORD: guest
+      RABBITMQ__URI: amqp://host.docker.internal:5672
+      RABBITMQ__USERNAME: guest
+    image: dsrnetschoolworker
+    networks:
+      shared_dsrnetschool_net: null
 networks:
   shared_dsrnetschool_net:
     name: dsr_net_school

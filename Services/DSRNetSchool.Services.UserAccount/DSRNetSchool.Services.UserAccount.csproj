@@ -10,7 +10,6 @@
     <ProjectReference Include="..\..\Data\DSRNetSchool.Context.Entities\DSRNetSchool.Context.Entities.csproj" />
     <ProjectReference Include="..\..\Shared\DSRNetSchool.Common\DSRNetSchool.Common.csproj" />
     <ProjectReference Include="..\DSRNetSchool.Services.Actions\DSRNetSchool.Services.Actions.csproj" />
-    <ProjectReference Include="..\DSRNetSchool.Services.EmailSender\DSRNetSchool.Services.EmailSender.csproj" />
   </ItemGroup>
 
 </Project>

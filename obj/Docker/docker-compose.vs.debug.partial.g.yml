@@ -12,21 +12,19 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_dsrnetschool_api$
     volumes:
       - F:\DSR\myproject\Systems\Api\DSRNetSchool.Api:/app
       - F:\DSR\myproject:/src
       - C:\Users\TBOTB\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\TBOTB\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-      - P:\Programs\Visual Studio\Other\NuGetPackages:/root/.nuget/fallbackpackages2:ro
+#$nuget_volume_mapping_dsrnetschool_api$
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath /root/.nuget/fallbackpackages2  \"/app/bin/Debug/net7.0/DSRNetSchool.Api.dll\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_dsrnetschool_api$ \"/app/bin/Debug/net7.0/DSRNetSchool.Api.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
@@ -41,21 +39,75 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_dsrnetschool_identity$
     volumes:
       - F:\DSR\myproject\Systems\Identity\DSRNetSchool.Identity:/app
       - F:\DSR\myproject:/src
       - C:\Users\TBOTB\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\TBOTB\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-      - P:\Programs\Visual Studio\Other\NuGetPackages:/root/.nuget/fallbackpackages2:ro
+#$nuget_volume_mapping_dsrnetschool_identity$
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath /root/.nuget/fallbackpackages2  \"\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_dsrnetschool_identity$ \"\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  dsrnetschool_worker_1:
+    image: dsrnetschoolworker:dev
+    container_name: DSRNetSchool.Worker
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "DSRNetSchool.Worker"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_dsrnetschool_worker_1$
+    volumes:
+      - F:\DSR\myproject\Systems\Workers\DSRNetSchool.Worker:/app
+      - F:\DSR\myproject:/src
+      - C:\Users\TBOTB\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_dsrnetschool_worker_1$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_dsrnetschool_worker_1$ \"\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  dsrnetschool_worker_2:
+    image: dsrnetschoolworker:dev
+    container_name: DSRNetSchool.Worker_1
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "DSRNetSchool.Worker"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_dsrnetschool_worker_2$
+    volumes:
+      - F:\DSR\myproject\Systems\Workers\DSRNetSchool.Worker:/app
+      - F:\DSR\myproject:/src
+      - C:\Users\TBOTB\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_dsrnetschool_worker_2$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_dsrnetschool_worker_2$ \"\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true

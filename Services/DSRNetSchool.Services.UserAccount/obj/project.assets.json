@@ -1782,8 +1782,7 @@
     "net7.0": [
       "DSRNetSchool.Common >= 1.0.0",
       "DSRNetSchool.Context.Entities >= 1.0.0",
-      "DSRNetSchool.Services.Actions >= 1.0.0",
-      "DSRNetSchool.Services.EmailSender >= 1.0.0"
+      "DSRNetSchool.Services.Actions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1825,9 +1824,6 @@
             },
             "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj"
-            },
-            "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj": {
-              "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.EmailSender\\DSRNetSchool.Services.EmailSender.csproj"
             },
             "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Common\\DSRNetSchool.Common.csproj"

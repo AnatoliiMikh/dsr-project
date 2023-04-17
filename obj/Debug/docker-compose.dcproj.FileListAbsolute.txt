@@ -93,3 +93,8 @@ F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.Actions.dll
 F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.EmailSender.dll
 F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.Actions.pdb
 F:\DSR\myproject\bin\Debug\DSRNetSchool.Services.EmailSender.pdb
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Worker.deps.json
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Worker.runtimeconfig.json
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Worker.exe
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Worker.dll
+F:\DSR\myproject\bin\Debug\DSRNetSchool.Worker.pdb

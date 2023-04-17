@@ -2457,8 +2457,7 @@
         "dependencies": {
           "DSRNetSchool.Common": "1.0.0",
           "DSRNetSchool.Context.Entities": "1.0.0",
-          "DSRNetSchool.Services.Actions": "1.0.0",
-          "DSRNetSchool.Services.EmailSender": "1.0.0"
+          "DSRNetSchool.Services.Actions": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DSRNetSchool.Services.UserAccount.dll": {}

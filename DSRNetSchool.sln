@@ -48,15 +48,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Identity", "Sy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.UserAccount", "Services\DSRNetSchool.Services.UserAccount\DSRNetSchool.Services.UserAccount.csproj", "{76779B7C-9814-401D-8BD9-31B5DAEF7484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Services.Cache", "Services\DSRNetSchool.Services.Cache\DSRNetSchool.Services.Cache.csproj", "{48414409-404A-465B-A62B-8B97822ABC52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.Cache", "Services\DSRNetSchool.Services.Cache\DSRNetSchool.Services.Cache.csproj", "{48414409-404A-465B-A62B-8B97822ABC52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Services.RabbitMq", "Services\DSRNetSchool.Services.RabbitMq\DSRNetSchool.Services.RabbitMq.csproj", "{9905C46C-8045-41DF-90BA-3FC0EFF38941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.RabbitMq", "Services\DSRNetSchool.Services.RabbitMq\DSRNetSchool.Services.RabbitMq.csproj", "{9905C46C-8045-41DF-90BA-3FC0EFF38941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Services.Actions", "Services\DSRNetSchool.Services.Actions\DSRNetSchool.Services.Actions.csproj", "{78C49353-C604-423B-973A-B9AA19015E6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.Actions", "Services\DSRNetSchool.Services.Actions\DSRNetSchool.Services.Actions.csproj", "{78C49353-C604-423B-973A-B9AA19015E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Services.EmailSender", "Services\DSRNetSchool.Services.EmailSender\DSRNetSchool.Services.EmailSender.csproj", "{09F10D80-908E-46B4-8645-3A4133F28020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Services.EmailSender", "Services\DSRNetSchool.Services.EmailSender\DSRNetSchool.Services.EmailSender.csproj", "{09F10D80-908E-46B4-8645-3A4133F28020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Consts", "Shared\DSRNetSchool.Consts\DSRNetSchool.Consts.csproj", "{E537EE3E-476B-4222-8550-E6E621032D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Consts", "Shared\DSRNetSchool.Consts\DSRNetSchool.Consts.csproj", "{E537EE3E-476B-4222-8550-E6E621032D31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{7EC1648A-D360-4BDF-BBE2-AEC4505F0F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Worker", "Systems\Workers\DSRNetSchool.Worker\DSRNetSchool.Worker.csproj", "{9F57C6E3-9888-4463-AC62-595BED523676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -136,6 +140,10 @@ Global
 		{E537EE3E-476B-4222-8550-E6E621032D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E537EE3E-476B-4222-8550-E6E621032D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E537EE3E-476B-4222-8550-E6E621032D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F57C6E3-9888-4463-AC62-595BED523676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F57C6E3-9888-4463-AC62-595BED523676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F57C6E3-9888-4463-AC62-595BED523676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F57C6E3-9888-4463-AC62-595BED523676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +169,8 @@ Global
 		{78C49353-C604-423B-973A-B9AA19015E6B} = {D4247033-4CAB-4F04-A442-7E5DD016E74B}
 		{09F10D80-908E-46B4-8645-3A4133F28020} = {D4247033-4CAB-4F04-A442-7E5DD016E74B}
 		{E537EE3E-476B-4222-8550-E6E621032D31} = {C410E01C-9E10-401F-8151-EDF265867F57}
+		{7EC1648A-D360-4BDF-BBE2-AEC4505F0F20} = {9B4C8392-559E-4CBC-BEC1-D0BFCACC7346}
+		{9F57C6E3-9888-4463-AC62-595BED523676} = {7EC1648A-D360-4BDF-BBE2-AEC4505F0F20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {299BF63F-FD53-4499-A734-9D7AAEA17047}
