@@ -5054,6 +5054,7 @@
       "DSRNetSchool.Services.Actions >= 1.0.0",
       "DSRNetSchool.Services.EmailSender >= 1.0.0",
       "DSRNetSchool.Services.RabbitMq >= 1.0.0",
+      "DSRNetSchool.Settings >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.1",
       "Serilog.AspNetCore >= 6.1.0",
       "Serilog.Enrichers.CorrelationId >= 3.0.1",
@@ -5111,6 +5112,9 @@
             },
             "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\DSRNetSchool.Consts.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Consts\\DSRNetSchool.Consts.csproj"
+            },
+            "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj": {
+              "projectPath": "F:\\DSR\\myproject\\Shared\\DSRNetSchool.Settings\\DSRNetSchool.Settings.csproj"
             }
           }
         }

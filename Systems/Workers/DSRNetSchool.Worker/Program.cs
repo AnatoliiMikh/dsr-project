@@ -1,5 +1,5 @@
 using DSRNetSchool.Context;
-using DSRNetSchool.Settings;
+//using DSRNetSchool.Settings;
 using DSRNetSchool.Worker;
 using DSRNetSchool.Worker.Configuration;
 using Serilog;
