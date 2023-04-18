@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Worker", "Syst
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{01B5DC41-5D8C-4518-B88E-A26507C02E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Web", "Systems\Web\DSRNetSchool.Web\DSRNetSchool.Web.csproj", "{4EA88E58-4C20-4339-B354-97531432FD85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSRNetSchool.Web", "Systems\Web\DSRNetSchool.Web\DSRNetSchool.Web.csproj", "{4EA88E58-4C20-4339-B354-97531432FD85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSRNetSchool.Services.Authors", "Services\DSRNetSchool.Services.Authors\DSRNetSchool.Services.Authors.csproj", "{7157E110-8DB0-4C54-AF28-86020E01C0E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{4EA88E58-4C20-4339-B354-97531432FD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA88E58-4C20-4339-B354-97531432FD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EA88E58-4C20-4339-B354-97531432FD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7157E110-8DB0-4C54-AF28-86020E01C0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7157E110-8DB0-4C54-AF28-86020E01C0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7157E110-8DB0-4C54-AF28-86020E01C0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7157E110-8DB0-4C54-AF28-86020E01C0E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +182,7 @@ Global
 		{9F57C6E3-9888-4463-AC62-595BED523676} = {7EC1648A-D360-4BDF-BBE2-AEC4505F0F20}
 		{01B5DC41-5D8C-4518-B88E-A26507C02E9C} = {9B4C8392-559E-4CBC-BEC1-D0BFCACC7346}
 		{4EA88E58-4C20-4339-B354-97531432FD85} = {01B5DC41-5D8C-4518-B88E-A26507C02E9C}
+		{7157E110-8DB0-4C54-AF28-86020E01C0E3} = {D4247033-4CAB-4F04-A442-7E5DD016E74B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {299BF63F-FD53-4499-A734-9D7AAEA17047}

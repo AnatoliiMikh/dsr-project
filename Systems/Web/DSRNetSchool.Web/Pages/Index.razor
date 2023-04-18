@@ -1,14 +1,11 @@
 ﻿@page "/"
+
 @layout MainLayout
 
-<h1>Dashboard</h1>
-<br />
+@attribute [Authorize]
 
-@*
-@page "/"
-@layout MainLayout
+<MudTHeadRow>
+    <MudText Typo="Typo.h4" Class="ma-4">Dashboard</MudText><br />
+</MudTHeadRow>
 
-<h1>Dashboard</h1>
-<br />
 
-*@
