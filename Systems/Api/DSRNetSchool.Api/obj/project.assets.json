@@ -2370,6 +2370,20 @@
           "bin/placeholder/DSRNetSchool.Services.Actions.dll": {}
         }
       },
+      "DSRNetSchool.Services.Authors/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "DSRNetSchool.Context": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DSRNetSchool.Services.Authors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DSRNetSchool.Services.Authors.dll": {}
+        }
+      },
       "DSRNetSchool.Services.Books/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -6422,6 +6436,11 @@
       "path": "../../../Services/DSRNetSchool.Services.Actions/DSRNetSchool.Services.Actions.csproj",
       "msbuildProject": "../../../Services/DSRNetSchool.Services.Actions/DSRNetSchool.Services.Actions.csproj"
     },
+    "DSRNetSchool.Services.Authors/1.0.0": {
+      "type": "project",
+      "path": "../../../Services/DSRNetSchool.Services.Authors/DSRNetSchool.Services.Authors.csproj",
+      "msbuildProject": "../../../Services/DSRNetSchool.Services.Authors/DSRNetSchool.Services.Authors.csproj"
+    },
     "DSRNetSchool.Services.Books/1.0.0": {
       "type": "project",
       "path": "../../../Services/DSRNetSchool.Services.Books/DSRNetSchool.Services.Books.csproj",
@@ -6466,6 +6485,7 @@
       "DSRNetSchool.Context.MigrationsMSSQL >= 1.0.0",
       "DSRNetSchool.Context.MigrationsPostgreSQL >= 1.0.0",
       "DSRNetSchool.Services.Actions >= 1.0.0",
+      "DSRNetSchool.Services.Authors >= 1.0.0",
       "DSRNetSchool.Services.Books >= 1.0.0",
       "DSRNetSchool.Services.Cache >= 1.0.0",
       "DSRNetSchool.Services.RabbitMq >= 1.0.0",
@@ -6532,6 +6552,9 @@
             },
             "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Actions\\DSRNetSchool.Services.Actions.csproj"
+            },
+            "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Authors\\DSRNetSchool.Services.Authors.csproj": {
+              "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Authors\\DSRNetSchool.Services.Authors.csproj"
             },
             "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Books\\DSRNetSchool.Services.Books.csproj": {
               "projectPath": "F:\\DSR\\myproject\\Services\\DSRNetSchool.Services.Books\\DSRNetSchool.Services.Books.csproj"

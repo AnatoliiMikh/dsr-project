@@ -16,6 +16,7 @@ COPY ["Services/DSRNetSchool.Services.Actions/DSRNetSchool.Services.Actions.cspr
 COPY ["Shared/DSRNetSchool.Consts/DSRNetSchool.Consts.csproj", "Shared/DSRNetSchool.Consts/"]
 COPY ["Services/DSRNetSchool.Services.EmailSender/DSRNetSchool.Services.EmailSender.csproj", "Services/DSRNetSchool.Services.EmailSender/"]
 COPY ["Services/DSRNetSchool.Services.RabbitMq/DSRNetSchool.Services.RabbitMq.csproj", "Services/DSRNetSchool.Services.RabbitMq/"]
+COPY ["Services/DSRNetSchool.Services.Authors/DSRNetSchool.Services.Authors.csproj", "Services/DSRNetSchool.Services.Authors/"]
 COPY ["Services/DSRNetSchool.Services.Books/DSRNetSchool.Services.Books.csproj", "Services/DSRNetSchool.Services.Books/"]
 COPY ["Shared/DSRNetSchool.Common/DSRNetSchool.Common.csproj", "Shared/DSRNetSchool.Common/"]
 COPY ["Services/DSRNetSchool.Services.Cache/DSRNetSchool.Services.Cache.csproj", "Services/DSRNetSchool.Services.Cache/"]

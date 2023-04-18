@@ -40,7 +40,7 @@ var app = builder.Build();
 
 app.UseStaticFiles(); //Убрать, когда сделаем web
 
-//app.UseAppCors();
+app.UseAppCors();
 
 app.UseAppHealthChecks();
 
